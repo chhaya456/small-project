@@ -1,0 +1,18 @@
+<!doctype>
+
+<html>
+
+<head>
+</head>
+
+<body>
+<p>Some text
+<p>self closing tags p,li,tr,th,html,bod.y,etc. dont't have to provide closing tag
+<ul>
+	<li> Tea
+	<li>Coffee
+</ul>
+
+</body>
+
+</html>
