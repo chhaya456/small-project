@@ -1,0 +1,18 @@
+//creating sum with the help of forEach function instead of classic for loop.
+
+
+//create an array of number
+var numbers=[1,2,3,4,5];
+
+
+//create sum varaible
+var sum=0;
+
+
+//loop over an array, an incrementing the sum varaible
+numbers.forEach(function(number)){
+sum +=number;
+}
+
+//print the result
+sum;
