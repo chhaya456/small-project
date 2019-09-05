@@ -16,3 +16,26 @@ sum +=number;
 
 //print the result
 sum;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////
+/////calculating area of images with the help of forEach function
+
+//creating an array
+
+var  images = [
+  { height: 10, width: 30 },
+  { height: 20, width: 90 },
+  { height: 54, width: 32 }
+];
+
+//creating an area array
+ 
+ var areas =[];
+
+//loop over the array, calculaitng area
+
+images.forEach(function image){
+ 
+ areas[i] = image.height[i]*image.width[i];
+}
