@@ -1,0 +1,15 @@
+var post ={id : 4, title :'New post'};
+var comments = [
+  {postId:4,content:'New post'},
+  {postId:1,content:'ok'},
+  {postId:4,content:'good'}
+];
+
+function commentsForPost(posts,comments){
+  return comments.filter(function(comment){
+   return comment.postId ===post.id;
+  });
+
+}
+
+commentsForPost(post,comments);
