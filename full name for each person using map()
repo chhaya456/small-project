@@ -1,0 +1,12 @@
+var persons = [
+  {firstname : "Malcom", lastname: "Reynolds"},
+  {firstname : "Kaylee", lastname: "Frye"},
+  {firstname : "Jayne", lastname: "Cobb"}
+];
+
+var fullName = persons.map(function(person){
+   return[person.firstname,person.lastname].join(" ");
+  
+});
+
+fullName;
